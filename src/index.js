@@ -9,8 +9,7 @@ const Task = require('./models/task')
  
 // mongoose.connect('mongodb+srv://widyadbatlas:mysql123@widyacluster-ykgaa.mongodb.net/widyaCluster?retryWrites=true&w=majority'
     
-mongoose.connect('mongodb+srv://widyadbatlas:mysql123@widyacluster-ykgaa.mongodb.net/widyaCluster?retryWrites=true&w=majority'
-{
+mongoose.connect('mongodb+srv://widyadbatlas:mysql123@widyacluster-ykgaa.mongodb.net/widyaCluster?retryWrites=true&w=majority', {
     // Parser string URL
     useNewUrlParser: true,
 
