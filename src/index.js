@@ -7,7 +7,9 @@ const bcrypt = require('bcrypt')
 const User = require('./models/user')
 const Task = require('./models/task')
  
-mongoose.connect('mongodb+srv://widyadbatlas:mysql123@widyacluster-ykgaa.mongodb.net/widyaCluster?retryWrites=true&w=majority', {
+// mongoose.connect('mongodb+srv://widyadbatlas:mysql123@widyacluster-ykgaa.mongodb.net/widyaCluster?retryWrites=true&w=majority'
+    
+mongoose.connect('mongodb://127.0.0.1:27017/jc-mongoose', {
     // Parser string URL
     useNewUrlParser: true,
 
