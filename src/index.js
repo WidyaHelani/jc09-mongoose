@@ -21,6 +21,7 @@ mongoose.connect('mongodb+srv://widyadbatlas:mysql123@widyacluster-ykgaa.mongodb
 const app = express()
 const port = process.env.PORT || 2019
 
+app.use(cors())
 app.use(express.json())
 
 app.get('/', (req, res) => {
